@@ -1,0 +1,163 @@
+/* big tablet to 1200px (width smaller then 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .main-nav li {
+    display: inline-block;
+    margin-right: 35px;
+  }
+  .copyrights {
+    margin-left: 10%;
+  }
+}
+/* small tablets to big tablets: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+  .main-nav li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+  .copyrights {
+    margin-left: 1%;
+  }
+  .footer ul {
+    margin-right: 10%;
+    margin-top: -25px;
+  }
+  .footer li {
+    display: inline-block;
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+}
+/* small tablets to big tablets: from 767px to 790px */
+@media only screen and (max-width: 789px) {
+  .main-nav li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: inline-block;
+  }
+  .mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: rgb(17, 17, 17);
+  }
+
+  .span-1-of-3 {
+    width: 100%;
+  }
+  .span-1-of-4 {
+    width: 100%;
+  }
+}
+
+/* small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: inline-block;
+  }
+  .mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: rgb(17, 17, 17);
+  }
+
+  .logo img {
+    height: 80px;
+    width: auto;
+  }
+
+  .box img {
+    height: 250px;
+    width: 100%;
+  }
+  .copyrights {
+    margin-left: 20%;
+    font-size: 60%;
+  }
+  .footer ul {
+    margin-right: 20%;
+  }
+  .footer li {
+    display: inline-block;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  .span-1-of-3 {
+    width: 100%;
+  }
+  .span-1-of-4 {
+    width: 100%;
+  }
+}
+
+/* small phones: from 0px to 480px */
+
+@media only screen and (max-width: 480px) {
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: inline-block;
+  }
+  .mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: rgb(17, 17, 17);
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  .section-features {
+    padding: 30px, 15px;
+  }
+
+  .heading-button {
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -30px;
+    z-index: 99999;
+  }
+  .button-learn-more {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .copyrights {
+    margin-left: 20%;
+    font-size: 60%;
+  }
+  .footer ul {
+    margin-right: 20%;
+  }
+  .footer li {
+    display: inline-block;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+}

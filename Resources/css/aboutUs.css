@@ -1,0 +1,30 @@
+h3,
+h4 {
+  font-family: oswald-extralight, oswald, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+p {
+  color: grey;
+  text-align: justify;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.hero-img-container {
+  margin-top: 50px;
+}
+.hero-img {
+  width: 100%;
+  text-align: center;
+}
+/* .hero-section {
+  background-color: rgb(247, 243, 243);
+} */
+.about-us-section {
+  background-color: rgb(247, 243, 243);
+  border-bottom: 1px solid #0e76a8;
+}
+.footer ul {
+  margin-top: -55px;
+}

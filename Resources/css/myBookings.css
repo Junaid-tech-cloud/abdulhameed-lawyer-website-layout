@@ -1,0 +1,94 @@
+.cards-and-text-section {
+  background-color: rgb(248, 246, 246);
+}
+.profile-card {
+  border: 1px solid rgb(145, 143, 143);
+  width: 65%;
+  margin-right: 17.5%;
+  margin-bottom: 30px;
+  /* height: 300px; */
+  /* background-color: rgb(236, 234, 234); */
+}
+.user-email {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(110, 106, 106);
+  font-size: 80%;
+}
+.user-avatar {
+  color: gray;
+  font-size: 500%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.followers,
+.following {
+  text-align: center;
+  color: rgb(110, 106, 106);
+  font-size: 80%;
+  font-weight: 100;
+}
+.followers {
+  border-right: 1px solid rgb(196, 193, 193);
+}
+.button-booking-edit {
+  text-decoration: none;
+  background-color: rgb(248, 246, 246);
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: skyblue;
+  border: 1px solid skyblue;
+  padding: 6px;
+}
+/* .booking-text-area {
+  margin-left: 5px;
+} */
+.booking-header {
+  font-size: 97%;
+  font-weight: 300%;
+  margin-bottom: 15px;
+}
+.booking-text {
+  font-size: 80%;
+  color: rgb(110, 106, 106);
+  padding-bottom: 15px;
+}
+.booking-text-navigation {
+  display: inline-block;
+  margin-top: 50px;
+  padding-right: 35px;
+  font-size: 80%;
+  padding-bottom: 30px;
+}
+.booking-text-navigation:hover {
+  cursor: pointer;
+  color: skyblue;
+}
+.booking-text-navigation-area {
+  border-bottom: 1px solid gray;
+}
+.card-navigation {
+  list-style: none;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.card-navigation li {
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: rgb(110, 106, 106);
+  font-size: 80%;
+}
+.card-navigation li:hover {
+  color: skyblue;
+}
+.link-to-services-page {
+  width: 30%;
+  margin-left: 35%;
+  color: rgb(110, 106, 106);
+}
